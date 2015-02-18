@@ -12,11 +12,13 @@ source ~/.profile
 
 nvm install [version-no]  // latest version can be found at http://nodejs.org/
 
-node -v  // check the version of node installed
+node -v  [check the version of node installed]
 
-npm -v  // check the version of npm installed
+npm -v   [check the version of npm installed]
 
-Go To the project and do  npm install [ this install all dependencies in package.json]
+Go To the project and  install all dependencies in package.json
+
+$ npm install
 
 ===============================================================================================
 
