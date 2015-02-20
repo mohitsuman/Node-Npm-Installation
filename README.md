@@ -5,6 +5,7 @@ Because of this, and my recent experience with Node, I have decided to compile s
 
 Installing With NVM
 --------------------
+// Error arsing due to node not present
 
 $ curl https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
 
