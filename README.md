@@ -16,18 +16,18 @@ $ echo 'export PATH=$HOME/.node/bin:$PATH' >> ~/.bashrc
 $ . ~/.bashrc
 
 
-3. Go To the project and  install all dependencies in package.json
+    Go To the project and  install all dependencies in package.json
 
-$ npm install
+      $ npm install
 
 Bower
 -------
 
 npm install -g bower
 
-Go to projection and install bower dependencies mentioned in bower.json
+    Go to project and install bower dependencies mentioned in bower.json
 
-$ bower update
+      $ bower update
 
 ===============================================================================================
 
