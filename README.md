@@ -10,7 +10,9 @@ Because of this, and my recent experience with Node, I have decided to compile s
 Tweaks
 ---------
 $ echo prefix = ~/.node >> ~/.npmrc
+
 $ echo 'export PATH=$HOME/.node/bin:$PATH' >> ~/.bashrc 
+
 $ . ~/.bashrc
 
 
@@ -19,7 +21,7 @@ $ . ~/.bashrc
 $ npm install
 
 Bower
------------------
+-------
 
 npm install -g bower
 
