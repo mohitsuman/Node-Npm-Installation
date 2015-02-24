@@ -3,23 +3,29 @@ Node JS / NPM have become essential parts of many applications.
 
 Because of this, and my recent experience with Node, I have decided to compile some instructions on how to install NodeJS/NPM installation [ so that you do not require the sudo command]. 
 
-Installing With NVM
---------------------
-// Error arsing due to node not present
+1. yum install nodejs
 
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.12.1/install.sh | bash
+2. yum install npm
 
-source ~/.profile
+Tweaks
+---------
+$ echo prefix = ~/.node >> ~/.npmrc
+$ echo 'export PATH=$HOME/.node/bin:$PATH' >> ~/.bashrc 
+$ . ~/.bashrc
 
-nvm install [version-no]  // latest version can be found at http://nodejs.org/
 
-node -v  [check the version of node installed]
-
-npm -v   [check the version of npm installed]
-
-Go To the project and  install all dependencies in package.json
+3. Go To the project and  install all dependencies in package.json
 
 $ npm install
+
+Bower
+-----------------
+
+npm install -g bower
+
+Go to projection and install bower dependencies mentioned in bower.json
+
+$ bower update
 
 ===============================================================================================
 
@@ -29,8 +35,5 @@ npm install -g grunt-cli
 
 [ Install ruby and gem install sass]
 
-Bower
------------------
-npm install -g bower
 
 ************************ U are all set to FLY #Puff #Puff ****************************
